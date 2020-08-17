@@ -36,4 +36,14 @@ public class PlayerMovement : MonoBehaviour
             tf.position += -tf.right * moveSpeed * Time.deltaTime;
         }
     }
+
+    void OncollisionEneter2D (Collision2D col)
+    {
+        if(col.gameObject.tag == "Bullet")
+        {
+            Destroy(this.gameObject);
+
+            Debug.Log("Collided with Bullet");
+        }
+    }
 }

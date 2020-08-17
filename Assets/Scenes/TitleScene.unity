@@ -527,9 +527,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efcd309ff28799443b69b6ed84bf2abc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1265895969514839039, guid: c56d1c5f72c4b284eb32d3450a98aac3, type: 3}
   cameraFollow: {fileID: 0}
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 1265895969514839036, guid: c56d1c5f72c4b284eb32d3450a98aac3,
+    type: 3}
   currentSceneIndex: 0
 --- !u!4 &1773691135
 Transform:

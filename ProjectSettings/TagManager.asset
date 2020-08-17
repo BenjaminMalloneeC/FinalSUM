@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ZoomOutTrigger
   - ZoomInTrigger
+  - Bullet
   layers:
   - Default
   - TransparentFX
