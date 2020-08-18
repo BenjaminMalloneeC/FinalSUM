@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    
+    //Camera follow play code
     public GameObject player;
-
-    //Camera follow player code
     public CameraFollow cameraFollow;
     public Transform playerTransform;
     // Start is called before the first frame update

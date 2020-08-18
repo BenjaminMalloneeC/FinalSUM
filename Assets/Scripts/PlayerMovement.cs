@@ -37,11 +37,11 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    void OncollisionEneter2D (Collision2D col)
+    void OnCollisionEnter2D (Collision2D col)
     {
         if(col.gameObject.tag == "Bullet")
         {
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
 
             Debug.Log("Collided with Bullet");
         }
