@@ -41,9 +41,9 @@ public class PlayerMovement : MonoBehaviour
     {
         if(col.gameObject.tag == "Bullet")
         {
-            //Destroy(this.gameObject);
+            Destroy(this.gameObject);
 
-            Debug.Log("Collided with Bullet");
+            ///Debug.Log("Collided with Bullet");
         }
     }
 }
